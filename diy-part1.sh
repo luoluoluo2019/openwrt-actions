@@ -19,6 +19,8 @@
 
 # git clone https://github.com/openwrt-1983/openwrt-branch package/long1983
 
+git clone helloworld https://github.com/fw876/helloworld feeds/helloworld
+
 git clone https://github.com/kenzok8/openwrt-packages package/kenzo
 
 git clone https://github.com/kenzok8/small package/small
