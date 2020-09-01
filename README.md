@@ -6,45 +6,40 @@ GitHub Actions 在线编译openwrt的脚本
 https://p3terx.com/archives/build-openwrt-with-github-actions.html
 
 不启用ssh
-
 SSH_ACTIONS: false
 
 启用ssh
-
 SSH_ACTIONS: true
-
 启用了 会中断全自动编译 只能用浏览器或者ssh(MobaXterm这个ssh测试可以用)登陆 但是可以选择配置而编译
 到了启用ssh这里 只需要运行 cd openwrt && make menuconfig 和 make -j$(($(nproc) + 1)) V=s 就可以了
 
 
 复制 SSH 连接命令粘贴到终端内执行，或者复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl + C 即可）
-
 cd openwrt && make menuconfig
-
 完成后按快捷键Ctrl+D或执行exit命令退出，后续编译工作将自动进行。
 
 
 一键编译脚本   基本不用修改了
-
 .github\workflows\openwrt-actions.yml
 
 更新与安装 feeds 前执行
-
 diy-part1.sh
 
 更新与安装 feeds 后执行
-
 diy-part2.sh
 
 自己用虚拟机下载源码 配置好的配置文件
-
 .config
 
 这个是替换编译固件里面的东西的文件夹
-
 files
 
+上传固件到奶牛快传
+https://cowtransfer.com/
 
+UPLOAD_COWTRANSFER: true
+
+编译完成后你可以在 Upload firmware to cowtransfer 步骤的日志中找到下载链接。
 
 
 
