@@ -1,5 +1,0 @@
-0 4 * * * /etc/coremark.sh
-*/10 * * * * sh /etc/rc.d/SendWANIP.sh
-30 5 * * * sh /etc/rc.d/git-v2.sh
-
-
