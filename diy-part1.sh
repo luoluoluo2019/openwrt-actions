@@ -29,6 +29,8 @@ git clone https://github.com/tty228/luci-app-serverchan package/tty228
 
 git clone https://github.com/destan19/OpenAppFilter package/destan19
 
+mkdir branch
+
 git clone https://github.com/openwrt-1983/openwrt-branch branch
 
 mv /branch/xradio package/xradio
