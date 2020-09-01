@@ -1,6 +1,6 @@
 # https://p3terx.com/archives/build-openwrt-with-github-actions.html
 #
-#×Ô¶¨Òå feeds ÅäÖÃÎÄ¼ş
-#°Ñ feeds.conf.default ÎÄ¼ş·ÅÈë²Ö¿â¸ùÄ¿Â¼¼´¿É£¬Ëü»á¸²¸Ç Open-Wrt Ô´ÂëÄ¿Â¼ÏÂµÄÏà¹ØÎÄ¼ş
+#è‡ªå®šä¹‰ feeds é…ç½®æ–‡ä»¶
+#æŠŠ feeds.conf.default æ–‡ä»¶æ”¾å…¥ä»“åº“æ ¹ç›®å½•å³å¯ï¼Œå®ƒä¼šè¦†ç›– Open-Wrt æºç ç›®å½•ä¸‹çš„ç›¸å…³æ–‡ä»¶
 
 
