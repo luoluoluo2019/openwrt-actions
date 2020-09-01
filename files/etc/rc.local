@@ -1,0 +1,36 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 每隔10分钟执行一次 */10 * * * * sh /etc/rc.d/SendWANIP.sh
+sleep 30
+sh /etc/rc.d/SendWANIP.sh &
+
+# 每天早上5:30执行 30 5 * * * sh /etc/rc.d/git-v2.sh
+sh /etc/rc.d/git-v2.sh
+
+
+exit 0
