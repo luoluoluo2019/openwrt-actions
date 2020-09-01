@@ -15,11 +15,6 @@
 
 
 
-cp /patch/add-thermal-driver-for-H6H5H3A64A83TR40.patch /target/linux/sunxi/patches-5.4/add-thermal-driver-for-H6H5H3A64A83TR40.patch
-cp /patch/add-YAML-schema-for-sun8i-thermal-driver-bindings.patch /target/linux/sunxi/patches-5.4/add-YAML-schema-for-sun8i-thermal-driver-bindings.patch
-cp /patch/sun8i-h3-Add-thermal-sensor-and-thermal-zones.patch /target/linux/sunxi/patches-5.4/sun8i-h3-Add-thermal-sensor-and-thermal-zones.patch
-
-
 
 
 
