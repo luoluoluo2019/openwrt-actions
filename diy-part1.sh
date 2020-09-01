@@ -19,21 +19,16 @@
 
 # git clone https://github.com/openwrt-1983/openwrt-branch package/long1983
 
-# luci-app-openclash  等等
 git clone https://github.com/kenzok8/openwrt-packages package/kenzo
 
-# passwall依赖
 git clone https://github.com/kenzok8/small package/small
 
-# 主题什么的
 git clone https://github.com/siropboy/mypackages package/mypackages
 
-# 微信推送
 git clone https://github.com/tty228/luci-app-serverchan package/tty228
 
-#应用过滤
 git clone https://github.com/destan19/OpenAppFilter package/destan19
 
-#
+
 
 
